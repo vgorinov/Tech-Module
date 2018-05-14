@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace AddTwoNumbers
 {
@@ -6,11 +6,12 @@ namespace AddTwoNumbers
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
+            int firstNumber = int.Parse(Console.ReadLine());
+            int seconeNumber = int.Parse(Console.ReadLine());
+            int sum = firstNumber + seconeNumber;
 
-            int sum = a + b;
-            Console.WriteLine($"{a} + {b} = {sum}");
+            Console.WriteLine($"{firstNumber} + {seconeNumber} = {sum}");
+
         }
     }
 }
