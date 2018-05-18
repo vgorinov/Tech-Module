@@ -16,6 +16,7 @@ namespace _04_BeverageLabels
 
             Console.WriteLine($"{volume}ml {name}:");
             Console.WriteLine($"{energyKcal}kcal, {sugarKcal}g sugars");
+
         }
     }
 }
